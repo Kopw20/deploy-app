@@ -25,6 +25,6 @@ public class HomeController {
             tasks.add(TaskDto.builder().title("A").description("Test DOP").build());
         }
         model.addAttribute("tasks", tasks);
-        return "index";
+        return "page/home";
     }
 }
